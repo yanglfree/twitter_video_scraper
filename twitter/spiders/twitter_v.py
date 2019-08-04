@@ -18,18 +18,7 @@ proxies={
     'https': 'https://' + proxy
 }
 
-# user_id = "986488498109562881" # 妖姬  https://twitter.com/wanjucute
-# user_id = "1073177482537295873" # 阿朱啊 https://twitter.com/azhua1997
-# user_id = "944521982007238656" #是肉肉本人 https://twitter.com/babebabe_y
-# user_id = "1118012614506713089" #完具 https://twitter.com/Curries_baby
-# user_id = "1140635967696490496" #rourou https://twitter.com/rourou233
-# user_id = "1101105195356966912" #qiuqiu https://twitter.com/qiuqiu918
-# user_id = "1105575933778513920" #露西 https://twitter.com/bennett29938
-# user_id = "1112253205067358208" #樱崽ovo https://twitter.com/yizhipijiang
-# user_id = "1097475087299735553" # https://twitter.com/youyincute
-# user_id = "1098019793544724480" # https://twitter.com/WGloia
-# user_id = "1072361969984761856" #https://twitter.com/llllllll520
-user_id = "1127067376162205696" #https://twitter.com/CandyTt0211
+user_id = "1531801543" #https://twitter.com/PDChinese #人民日报
 
 client = MongoClient('localhost')
 db = client.twitter
@@ -164,5 +153,5 @@ def download_mp4(url):
 
 
 if __name__ == "__main__":
-    # crawl_data("")
-    crawl_img();
+    crawl_data("")
+    # crawl_img();
