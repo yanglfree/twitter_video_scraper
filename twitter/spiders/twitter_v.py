@@ -76,9 +76,9 @@ def crawl_data(cursor_id):
         print("response is: ",response)
         try:
             response_dic = json.loads(response.text)
-            #获取视频地址，存入数据库
-            # handle_pic(response_dic)
             # 获取图片地址，存入数据库
+            # handle_pic(response_dic)
+            #获取视频地址，存入数据库
             handle_video(response_dic)
             # 获取cursor 翻下一页
             request_next(response_dic)

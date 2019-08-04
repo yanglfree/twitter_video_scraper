@@ -26,16 +26,7 @@ def download_video(videos):
         video = videos[0]
         del videos[0]
         lock.release()
-        # t = threading.Thread(target=download, args=(video["video_url"],))
-        # t.start()
         download(video["video_url"])
-    # for video in videos:
-    #     print("url is", video["video_url"])
-    #     t = threading.Thread(target=download(), args=(video["video_url"],))
-    #     t.start()
-
-
-
 
 def download(url):
     print("url is", url)

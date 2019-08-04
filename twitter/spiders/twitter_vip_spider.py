@@ -10,7 +10,3 @@ class TwitterVipSpiderSpider(scrapy.Spider):
     def parse(self, response):
         pass
 
-
-    def start_requests(response):
-        
-
