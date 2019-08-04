@@ -10,7 +10,7 @@ crawl twitter video
 这个好实现，http请求地址和请求参数已有。这里就不具体介绍了。
 
 
-用浏览器工具分析得到获取timeline的api，以及params参数，下拉翻页用的是cursor，首次加载cursor为空，以后每次的cursor都是从前一次的api中返回的。 因为twitter不能访问，所以记得这里要设置代理。
+用浏览器工具分析得到获取timeline的api，以及params参数，下拉翻页用的是cursor，首次加载cursor为空，以后每次的cursor都是从前一次的api中返回的。 因为twitter不能访问，所以记得这里要设置代理。header里面还要添加cookie信息
 ``` python
 def crawl_data(cursor_id):
     if cursor_id == "":
