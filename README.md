@@ -118,4 +118,3 @@ def download(url):
 爬了几个用户的页面，下了几百个视频，还有一些下载失败了，503。被屏蔽了吧。
 
 ![](http://ww1.sinaimg.cn/large/007dl3HPly1g5o0c9opw4j304i05ot93.jpg)
-有些小视频在开车，这里就不上图了。😀
